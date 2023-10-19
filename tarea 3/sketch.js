@@ -3,7 +3,7 @@ let rows, cols;
 let angle = 0;
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(windowWidth, windowHeight);
   rows = height / gridSize;
   cols = width / gridSize;
   rectMode(CENTER);
